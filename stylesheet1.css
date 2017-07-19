@@ -1,0 +1,94 @@
+body {
+	background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Free-Cool-Blue-Gradient-Background.jpg");
+	background-size: cover;
+}
+
+#welcome {
+	text-align: center;
+	margin-top: 125px;
+	color: #E3C014;
+	font-size: 50px;
+}
+
+#intro {
+	text-align: center;
+	margin-top: 125px;
+	color: #E3C014;
+	font-size: 30px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #55d6aa;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400px;
+	width: 60%;
+	margin-left: 20%;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	padding: 10px 20px;
+	border-style: solid;
+	font-size: 1.5em;
+	margin: 10px 0;
+	font-family: 'Avant Garde', Verdana;
+}
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	margin-top: 0;
+	padding-top: 23px;
+
+	position: relative;
+}
+
+nav a {
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+nav a:hover {
+	color: #000;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+nav ul {
+	margin-right: 50px;
